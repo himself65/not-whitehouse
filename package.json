@@ -1,6 +1,6 @@
 {
-  "name": "trump-whitehouse-generator",
-  "version": "0.1.0",
+  "name": "not-whitehouse",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
