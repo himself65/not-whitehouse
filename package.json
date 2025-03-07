@@ -1,0 +1,47 @@
+{
+  "name": "trump-whitehouse-generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.1.6",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@raycast/icons": "^0.4.7",
+    "class-variance-authority": "^0.7.1",
+    "classnames": "^2.5.1",
+    "clsx": "^2.1.1",
+    "foxact": "^0.2.44",
+    "hotkeys-js": "^3.13.9",
+    "html-to-image": "^1.11.13",
+    "jotai": "^2.12.1",
+    "jotai-location": "^0.5.5",
+    "lucide-react": "^0.477.0",
+    "next": "15.2.1",
+    "prosekit": "^0.11.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-transition-group": "^4.4.5",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-transition-group": "^4.4.12",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "url-loader": "^4.1.1"
+  },
+  "packageManager": "pnpm@9.15.5"
+}
