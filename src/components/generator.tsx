@@ -6,7 +6,7 @@ import ExportButton from "@/components/export-button";
 import FrameContextStore from "@/store/FrameContextStore";
 import { NoSSR } from "@/components/nossr";
 
-export const [Provider, useState, useSetState] = createContextState({
+const [Provider, useState, useSetState] = createContextState({
   value: "ARTICLES",
 });
 
@@ -28,3 +28,5 @@ export const Generator = (props: GeneratorProps) => {
     </div>
   );
 };
+
+export { Provider, useState, useSetState };
