@@ -159,7 +159,14 @@ const ResizableFrame: React.FC<PropsWithChildren> = ({ children }) => {
         }}
       >
         <div ref={rulerRef} className={styles.ruler}>
-          <span>{windowWidth} px</span>
+          <span
+            style={{
+              padding: "0 1em",
+              backgroundColor: "#0d0d0d",
+            }}
+          >
+            {windowWidth} px
+          </span>
         </div>
       </CSSTransition>
     </div>

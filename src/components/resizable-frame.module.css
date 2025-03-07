@@ -103,11 +103,6 @@
 
   --color: rgba(255 255 255 / 0.3);
 
-  > span {
-    padding: 0 1em;
-    background-color: #0d0d0d;
-  }
-
   &:before {
     position: absolute;
     z-index: -1;
